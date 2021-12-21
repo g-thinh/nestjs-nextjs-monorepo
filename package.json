@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "nestjs-auth-with-refresh-jwt",
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "postinstall": "NODE_ENV=production & cd server && yarn build",
+    "start": "node server/dist/main"
+  }
+}
