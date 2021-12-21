@@ -22,6 +22,14 @@ yarn workspace server start:dev
 
 ---
 
+## Deployment
+
+- The NestJS backend can be deployed on [Heroku](https://www.heroku.com/home) as a Node.js application. The root `package.json` and `main.ts` from the server has already been configured to be deployed.
+
+- The NextJS frontend can be deployed on [Vercel](https://vercel.com). You will need to choose the `client` folder as the root of the deployment.
+
+---
+
 ## Add New Workspaces
 
 Additional workspaces for shared libraries or components can be created at the root level, simply add the new workspace into the `package.json`
